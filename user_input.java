@@ -1,0 +1,42 @@
+
+
+import java.lang.System;
+import java.util.Scanner;
+
+class user_input_int{
+    public static void main(String[] args){
+        Scanner scn = new Scanner (System.in);
+        int a = scn.nextInt();
+        System.out.println("The value of a is:"+a);
+    }
+}
+
+class user_input_String {
+    public static void main ( String[] args){
+        Scanner scn = new Scanner (System.in);
+         int name = scn.nextLine();
+         System.out.println("The value of is:"+name);
+
+    }
+}
+
+class user_input_float
+{
+     public static void main ( String[] args){
+         Scanner scn = new Scanner (System.in);
+         float f  = scn.nextfloat();
+         System.out.println("The value of  f is:"+f);
+
+}
+
+class addition_of_two-numbers{
+    public static void main(string[] args){
+        Scanner scn =new Scanner(System.in);
+        System.out.println("Enter first number:");
+        int a= scn.nextInt();
+        System.out.println("Enter second number:");
+        int b = scn.nextInt();
+        int sum = a + b;
+        System.out.println("The sum of "+a" and "+b" is: "+sum);
+    }
+}
